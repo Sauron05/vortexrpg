@@ -111,22 +111,6 @@ VortexRPG ships with editable YAML resources for its major systems:
 | WorldGuard | Protection-aware hooks and safer world interactions |
 | Citizens | NPC role bindings and neural guide interactions |
 
-## Building From Source
-
-### Windows
-
-```powershell
-.\gradlew.bat test shadowJar spigotJar
-```
-
-### macOS / Linux
-
-```bash
-./gradlew test shadowJar spigotJar
-```
-
-Build outputs are written to `build/libs/`.
-
 ## Development Notes
 
 - Gradle Kotlin DSL build
